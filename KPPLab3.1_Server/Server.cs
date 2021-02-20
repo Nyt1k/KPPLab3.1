@@ -35,7 +35,7 @@ namespace KPPLab3._1
                 TcpListener listener = new TcpListener(IPAddress.Any, 8080);
                 listener.Start();
 
-                Console.WriteLine(DateTime.Now.ToShortTimeString() + " - Server is ready to work");
+                Console.WriteLine(DateTime.Now.ToShortTimeString() + " - Server is now ready to work");
                 Console.WriteLine(DateTime.Now.ToShortTimeString() + " - Waiting...");
 
                 while (true)
